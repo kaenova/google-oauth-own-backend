@@ -29,3 +29,8 @@ To reproduce, you just need to change a variable inside `backend/constant.js` th
 ## How's the flow on login with google
 
 ![Login with Google Flow](/flow.png)
+
+## What should i improve?
+
+Don't use email as a primary key, use "sub" field in the credentials. Because email may be change in the google.
+
